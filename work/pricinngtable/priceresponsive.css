@@ -1,0 +1,161 @@
+@media screen and (max-width: 1700px){
+
+    #checkbox{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+
+    #top_svg {
+        left: 75%;
+    }
+
+    #checkbox{
+        width: 15%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width: 1300px){
+
+    #checkbox{
+        width: 20%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 40pt;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    #top_svg {
+        left: 70%;
+    }
+
+    #checkbox{
+        width: 25%;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 35pt;
+    }
+
+    button{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    #top_svg {
+        left: 60%;
+    }
+
+    #checkbox{
+        width: 30%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-top: 2em;
+        margin-left: 23%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 30em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    #top_svg {
+        left: 46%;
+    }
+
+    #checkbox{
+        width: 40%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 13%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 30em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #top_svg {
+        left: 38%;
+    }
+
+    #checkbox{
+        width: 50%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 13%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 25em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 70pt;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    #top_svg {
+        left: 10%;
+        width: 20em;
+    }
+
+    #checkbox{
+        width: 80%;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    section{
+        margin-left: 8%;
+    }
+
+    #pricingtable_basic, #pricingtable_pro, #pricingtable_master{
+        width: 18em;
+    }
+
+    #amount_basic, #amount_pro, #amount_master{
+        font-size: 50pt;
+    }
+}

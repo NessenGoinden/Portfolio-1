@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nessen">
+  <meta name="description" content="Pricing Table">
+  <!-- links -->
+  <link rel="stylesheet" href="price.css"> 
+  <link rel="stylesheet" href="priceresponsive.css">
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+  <!-- title -->
+  <title>Pricing Table</title>
+</head>
+<body>
+
+  <!-- Images Background -->
+  <img src="bg-top.svg" alt="top_svg" id="top_svg">
+
+  <!-- HEADER with the title and the button -->
+  <header>
+    <!-- title -->
+    <h1>Our Pricing</h1>
+
+    <!-- switch -->
+    <div id="checkbox">
+      <p id="monthly">Monthly</p>
+      <input type="checkbox" id="toggle" onclick="myFunction()">
+      <label for="toggle" id="switch"></label>
+      <p id="annually">Annually</p>
+    </div>
+  </header>
+
+  <!-- MAIN with the price -->
+  <main>
+    <!-- pricing tab basic -->
+    <section id="pricingtable_basic" onmouseover="mouseOverBasic()" onmouseout="mouseOutBasic()">
+      <h3 id="title_basic">Basic</h3>
+      <p id="amount_basic"> $19.99 </p>
+      <hr>
+      <p id="storage_basic"> 500 GB Storage </p>
+      <hr>
+      <p id="users_basic"> 2 Users Allowed </p>
+      <hr>
+      <p id="transfer_basic"> Send up to 3 GB </p>
+      <hr>
+      <button id="learnMore_basic"><span>LEARN MORE</span></button>
+    </section>
+
+    <!-- pricing tab professional -->
+    <section id="pricingtable_pro" onmouseover="mouseOverPro()" onmouseout="mouseOutPro()">
+      <h3 id="title_pro">Professional</h3>
+      <p id="amount_pro"> $24.99 </p>
+      <hr>
+      <p id="storage_pro"> 1 TB Storage </p>
+      <hr>
+      <p id="users_pro"> 5 Users Allowed </p>
+      <hr>
+      <p id="transfer_pro"> Send up to 10 GB </p>
+      <hr>
+      <button id="learnMore_pro"><span>LEARN MORE</span></button>
+    </section>
+
+    <!-- pricing tab professional -->
+    <section id="pricingtable_master" onmouseover="mouseOverMaster()" onmouseout="mouseOutMaster()">
+      <h3 id="title_master">Master</h3>
+      <p id="amount_master"> $39.99 </p>
+      <hr>
+      <p id="storage_master"> 2 TB Storage </p>
+      <hr>
+      <p id="users_master"> 10 Users Allowed </p>
+      <hr>
+      <p id="transfer_master"> Send up to 20 GB </p>
+      <hr>
+      <button id="learnMore_master"><span>LEARN MORE</span></button>
+    </section>
+  </main>
+
+  <footer>
+    Make with ❤️ by Nessen Goinden
+  </footer>
+
+  <script src="toggle.js"></script>
+  <script src="table.js"></script>
+</body>
+</html>

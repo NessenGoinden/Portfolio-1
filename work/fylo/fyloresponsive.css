@@ -1,0 +1,190 @@
+/* change when screen is above a widht of 500px */
+@media screen and (min-width: 500px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        margin-top: 0;
+        width: 18em;
+        font-size: 10pt;
+    }
+
+    #illustration_1, #illustration_2{
+        height: 20em;
+    }
+
+    #review{
+        width: 20em;
+        margin: auto;
+        margin-top: 3em;
+    }
+
+    #profile{
+        left: -2em;
+    }
+}
+
+/* change when screen is above a widht of 700px */
+@media screen and (min-width: 700px) {
+
+    #illustration_1, #illustration_2{
+        height: 25em;
+    }
+
+    #files{
+        width: 30em;
+    }
+
+    #productive{
+        width: 30em;
+    }
+
+    #access{
+        width: 30em;
+    }
+
+}
+
+/* change when screen is above a widht of 1000px */
+@media screen and (min-width: 1000px) {
+
+    #illustration_1, #illustration_2{
+        height: 35em;
+    }
+
+    #files{
+        width: 30em;
+    }
+
+    footer{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #contact{
+        margin: auto;
+    }
+
+    footer div {
+        margin: auto;
+        margin-left: 3em;
+    }
+
+    #social_media{
+        margin: auto;
+    }
+
+}
+
+/* change when screen is above a widht of 1200px */
+@media screen and (min-width: 1200px) {
+
+    #illustration_1, #illustration_2{
+        height: 20em;
+    }
+
+    #illustration{
+        order: 2;
+    }
+
+    #files{
+        order: 1;
+        width: 35em;
+        text-align: left;
+    }
+
+    #productive {
+        width: 35em;
+        text-align: right;
+    }
+
+    article {
+        display: flex;
+    }
+
+    #access {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #access div{
+        margin: auto;
+        width: 40%;
+        text-align: left;
+    }
+
+    #review {
+        width: 20em;
+    }
+
+    #review #quote{
+        left: -16em;
+    }
+
+    #profile {
+        left: -2em;
+    }
+
+    button{
+        width: 20em;
+    }
+
+}
+
+/* change when screen is above a widht of 1300px */
+@media screen and (min-width: 1300px) {
+
+    #illustration_1, #illustration_2{
+        height: 30em;
+    }
+
+    #review {
+        width: 20em;
+    }
+
+    #review #quote{
+        left: -16em;
+    }
+
+    #profile {
+        left: -2em;
+    }
+
+}
+
+/* change when screen is above a widht of 1500px */
+@media screen and (min-width: 1500px) {
+
+    #illustration_1, #illustration_2{
+        height: 40em;
+    }
+
+    h2 {
+        font-size: 30pt;
+    }
+
+    p {
+        font-size: 15pt;
+    }
+
+    #review {
+        width: 30em;
+    }
+
+    #review #quote{
+        left: -26em;
+    }
+
+    #profile {
+        left: -7em;
+    }
+
+}

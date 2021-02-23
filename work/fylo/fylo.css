@@ -1,0 +1,227 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* link animation */
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:after{
+    border-top: 0.8em solid yellow;
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: .8em;
+    left: 0em;
+    transition: right .5s cubic-bezier(0,.5,0,1);
+    z-index: -1;
+}
+
+a:hover:after{
+    right: 0;
+}
+
+/* button */
+button{
+    width: 90%;
+    background-color: hsl(224, 93%, 58%);
+    padding: 1em;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: all 1s ease-in-out;
+}
+
+button:hover{
+    background-color: hsl(240, 92%, 85%);
+    color: black;
+}
+
+/* header & nav*/
+header{
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+nav{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+
+/* main & articel & section*/
+main{
+    width: 100%;
+    /* background: blue; */
+    text-align: center;
+}
+
+article {
+    /* background: red; */
+    display: block;
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    /* background: yellow; */
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+}
+
+section h2{
+    font-weight: 700;
+}
+
+section p, #enter_email, #see_more_work{
+    margin-top: 2em;
+}
+
+#enter_email{
+    width: 90%;
+    padding: 1em;
+}
+
+#articel_one{
+    margin-top: 5em;
+}
+
+/* articel two */
+#article_two{
+    margin-top: 10em;
+}
+
+#article_two #see_more_work{
+    width: fit-content;
+    border-bottom: 1px solid #3DA08F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    height: 2em;
+}
+
+#article_two #see_more_work a{
+    color: #3DA08F;
+}
+
+#article_two #see_more_work img{
+    margin-left: 1em;
+}
+
+#review{
+    width: 20em;
+    padding: 1em;
+    margin: auto;
+    margin-top: 3em;
+    background: white;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 1px 1px 8px lightgrey;
+}
+
+#review #quote{
+    position: relative;
+    left: -8em;
+    top: 0.5em;
+}
+
+#review p{
+    margin: 1em;
+    text-align: left;
+    font-size: 10pt;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -3em;
+}
+
+#profile img{
+    border-radius: 50px;
+}
+
+#user_name{
+    font-weight: 700;
+}
+
+#user_name span{
+    font-size: 8pt;
+    font-weight: 400;
+}
+
+
+/* artcile Three */
+#article_three{
+    background:  hsl(238, 22%, 44%);
+    margin-top: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 2em;
+    margin-top: 10em;
+}
+
+/* footer */
+footer {
+    padding: 2em;
+    background: hsl(243, 87%, 12%);
+}
+
+#contact{
+    margin-top: 3em;
+    line-height: 1em;
+}
+
+#contact span {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer div{
+    padding: 0;
+    margin-top: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer div a{
+    display: block;
+    color: white;
+    line-height: 2em;
+}
+
+footer span{
+    margin-left: 1em;
+}
+
+#social_media{
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#facebook, #twitter, #instagram{
+    padding: 1em;
+    border-radius: 50px;
+    border: 1px solid white;
+}

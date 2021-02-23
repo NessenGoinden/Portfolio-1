@@ -1,0 +1,53 @@
+@media screen and (min-width: 700px){
+
+    #hello{
+        font-size: 90pt;
+    }
+
+    article {
+        height: 60vh;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    #hello{
+        font-size: 160pt;
+    }
+
+    #pageslinks{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 25em;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+    }
+
+    article{
+        width: 50%;
+        text-align: center;
+    }
+
+    #projets{
+        margin-top: 0;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+
+    #name, #creations, #contactinfo{
+        font-size: 60pt;
+    }
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nessen">
+  <meta name="description" content="Gameboy">
+  <!-- links -->
+  <link rel="stylesheet" href="gameboy.css">
+  <link rel="stylesheet" href="gameboyresponsive.css">
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap" rel="stylesheet">
+  <!-- title -->
+  <title>GAMEBOY</title>
+</head>
+
+<body>
+<!-- Container -->
+<section id="container">
+    <!-- Elements in the container -->
+    <div id="container__elements">
+        <!-- Gameboy -->
+      <div id="gameboy">
+          <!-- element in gameboy -->
+        <div id="elements">
+            <!-- gameboy screen -->
+          <div id="screen">
+            <div id="inner_screen">
+                <img src="Mario.png" alt="mario" id="mario">
+                <audio src="mario_theme.mov" id="mario_theme"></audio>
+            </div>
+          </div>
+          <!-- gameboy controls -->
+          <div id="controls">
+              <!-- buttons circle -->
+            <div id="controls-circles">
+              <div id="circle-A">A</div>
+              <div id="circle-B">B</div>
+            </div>
+            <!-- movement buttons -->
+            <div id="movement_controls">
+              <div id="controls_move-vertical"></div>
+              <div id="controls_move-horizontal"></div>
+            </div>
+            <!-- options button -->
+            <div id="option-start_control">
+              <button id="on_control" onclick="on();">ON</button>
+              <button id="off_control" onclick="off();">OFF</button>
+            </div>
+            <!-- speakers -->
+            <div id="gameboy_speakers">
+              <div id="speakers"></div>
+              <div id="speakers"></div>
+              <div id="speakers"></div>
+              <div id="speakers"></div>
+              <div id="speakers"></div>
+            </div>
+            <!-- logo -->
+            <div id="gameboy_logo">
+                <img src="logo.png" alt="logo" id="logo">
+            </div>
+          </div>
+        </div>
+    </div>
+    <p>
+      Click on the <span>ON</span> and <span>OFF</span> button to seen the game 🕹️
+      <br>
+      A simple gameboy design made with ❤️ by Nessen Goinden
+      <br>
+      Had great fun coding it 🚀
+    </p>
+</section>
+
+
+<script src="gameboy.js"></script>
+</body>
+
+</html>
