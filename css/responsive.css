@@ -24,14 +24,10 @@
         width: 25em;
     }
 
-    main {
-        display: flex;
-        align-items: center;
-    }
-
     article{
         width: 50%;
         text-align: center;
+        margin: auto;
     }
 
     #projets{
