@@ -201,37 +201,3 @@ section {
         filter: blur(2px);
     }
 }
-
-/* time */
-#time {
-    color: #860d00;
-    font-size: 20px;
-    font-family: 'Fredoka One', cursive;
-    letter-spacing: 7px;
-}
-
-/* music */
-#sound {
-    width: 30em;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    margin-top: 5em;
-}
-
-button {
-    padding: 1em 5em;
-    font-family: 'Fredoka One', cursive;
-    letter-spacing: 4px;
-    border: none;
-    border-radius: 20px;
-    background-color: #860d00;
-    color: white;
-    cursor: pointer;
-    z-index: 2;
-}
-
-button:hover{
-    background-color: #FF4449;
-    color: white;
-}
